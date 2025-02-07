@@ -3,6 +3,23 @@ package com.ep.lab;
 import java.util.Arrays;
 import java.util.Scanner;
 
+/**
+ * Explanation of the Starter Code
+ *  1. Input Array Size and Elements:
+ *  The code prompts the user to enter the number of elements and then inputs the
+ *  elements into the array.
+ *
+ * 2. TODO Comments:
+ * Each TODO comment indicates where students should implement specific functionality:
+ * Calculate Sum: Iterate through the array to compute the sum of all elements
+ * Calculate Average: Compute the average by dividing the sum by the  number of elements.
+ * Find Maximum Value: Traverse the array to find the maximum value
+ * Find Minimum Value: Traverse the array to find the minimum value.
+ * Search for a Value: Implement a search to check if a specific value exists in the array.
+ * Sort the Array: Use Arrays.sort() to sort the array in ascending order.
+ * Reverse the Array: Manually reverse the array or use an alternative method.
+ * Display Results: Print the computed values and the transformed arrays
+ */
 public class ArrayManipulation {
 
     public static void main(String[] args) {
