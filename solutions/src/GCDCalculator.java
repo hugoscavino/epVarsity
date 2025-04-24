@@ -22,7 +22,7 @@ public class GCDCalculator {
         System.out.println("GCD of " + m + " and " + n + " is: " + gcd(m, n));
 
         m = 7;
-        n = 1;
+        n = 3;
         System.out.println("GCD of " + m + " and " + n + " is: " + gcd(m, n));
     }
 }

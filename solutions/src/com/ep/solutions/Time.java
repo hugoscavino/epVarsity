@@ -1,6 +1,7 @@
 package com.ep.solutions;
 
 import java.util.Calendar;
+import java.util.Date;
 
 public class Time {
     private int hour;
@@ -48,11 +49,15 @@ public class Time {
         this.minute = (int) (totalMinutes % 60);
         long totalHours = totalMinutes / 60;
         this.hour = (int) (totalHours % 24); // Convert to 24-hour format
+
+        Date now  = new Date(elapsedTime);
+        this.second = now.getSeconds();
     }
 
     // Override toString method to display time in HH:MM:SS format
     @Override
     public String toString() {
+
         return String.format("%02d:%02d:%02d", hour, minute, second);
     }
 

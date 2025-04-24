@@ -1,14 +1,11 @@
 package com.ep.solutions;
 
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.OptionalInt;
-import java.util.Scanner;
+import java.util.*;
 
 public class ArrayManipulation {
 
     public static void main(String[] args) {
-
+        List<String> list = Arrays.asList("red", "red", "green");
         Scanner scanner = new Scanner(System.in);
             // Input array size
         System.out.println("Enter the number of elements in the array");
